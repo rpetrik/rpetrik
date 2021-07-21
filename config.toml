@@ -1,0 +1,33 @@
+baseURL = "https://rado.petrik.us/"
+languageCode = "en-us"
+title = "Rado Petrik"
+theme = "m10c"
+
+[params]
+author = "Rado Petrik"
+description = "embedded software developer, electronics engineer, team leader, sailor"
+avatar = "avatar.jpg"
+
+    [[params.social]]
+    icon = "linkedin"
+    name = "My LinkedIn"
+    url = "https://www.linkedin.com/in/radopetrik/"
+
+    [[params.social]]
+    icon = "github"
+    name = "My Github"
+    url = "https://github.com/rpetrik"
+
+    [params.style]
+      darkestColor = "#242930"
+      darkColor = "#353b43"
+      lightColor = "#afbac4"
+      lightestColor = "#ffffff"
+      primaryColor = "#57cc8a"
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
